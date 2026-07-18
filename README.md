@@ -1,8 +1,14 @@
 # Predicting Acute Food Insecurity Risk in Kenyan Counties using Climate and Market Signals
 
-**Program:** Moringa School — Data Science Capstone Project
-**Team:** Data Alchemists (Patrick Njoroge, Chelimo Ivy, Alex Njihia, Joel Andrew, Halima Ahmed, Rebecca Monchari)
+**Program:** Moringa School - Data Science Capstone Project
 
+**Team:** Data Alchemists
+- Patrick Njoroge
+- Chelimo Ivy
+- Alex Njihia
+- Joel Andrew
+- Halima Ahmed
+- Rebecca Monchari
 ---
 
 ## Overview
@@ -123,4 +129,4 @@ They are not bundled in this repository due to size; download them from HDX and 
 
 ## Authors
 
-Data Alchemists — Patrick Njoroge, Chelimo Ivy, Alex Njihia, Joel Andrew, Halima Ahmed, Rebecca Monchari
+Data Alchemists : Patrick Njoroge, Chelimo Ivy, Alex Njihia, Joel Andrew, Halima Ahmed, Rebecca Monchari
