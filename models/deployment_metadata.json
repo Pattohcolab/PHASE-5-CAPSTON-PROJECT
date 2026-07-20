@@ -1,12 +1,8 @@
 {
   "model_name": "Random Forest",
-<<<<<<< HEAD:models/deployment_metadata.json
   "algorithm": "RandomForestClassifier",
   "target": "IPC Phase 3+ (Crisis) in the following month, county-level",
   "threshold": 0.5199999999999999,
-=======
-  "threshold": 0.24999999999999994,
->>>>>>> ce17db00c8eb00b20f32713f8c0256c21ab88f1c:deployment_metadata.json
   "feature_cols": [
     "rfq_mean",
     "r3q_mean",
@@ -25,12 +21,8 @@
   "recall_floor": 0.75,
   "selection_rule": "maximise precision subject to recall >= 0.75 on validation",
   "test_recall": 0.804,
-<<<<<<< HEAD:models/deployment_metadata.json
   "test_precision": 0.745,
   "test_pr_auc": 0.815,
   "test_roc_auc": 0.943,
   "trained_on": "2026-07-21"
-=======
-  "test_precision": 0.752
->>>>>>> ce17db00c8eb00b20f32713f8c0256c21ab88f1c:deployment_metadata.json
 }
