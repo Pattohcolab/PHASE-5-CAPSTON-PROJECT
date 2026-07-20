@@ -38,11 +38,6 @@ Expected local files (not included in this repo — see [Data Access](#data-acce
 │   ├── ipcphase.xlsx                       # IPC/FEWS NET phase classifications
 │   ├── ken-rainfall-subnat-full.csv        # CHIRPS dekadal rainfall anomalies
 │   └── wfp_food_prices_ken.csv             # WFP monthly staple food prices
-├── catboost_info/                          # Auto-generated CatBoost training logs
-│   ├── learn/
-│   ├── catboost_training.json
-│   ├── learn_error.tsv
-│   └── time_left.tsv
 ├── notebook.ipynb                          # Main analysis notebook 
 ├── model_df.csv                            # Intermediate model-ready dataset 
 ├── model_ready.csv                         # Final cleaned modelling dataset 
@@ -53,7 +48,6 @@ Expected local files (not included in this repo — see [Data Access](#data-acce
 └── README.md
 ```
 
-> `catboost_info/` is created automatically the first time CatBoost trains in the notebook, it's safe to delete and regenerate, and worth adding to `.gitignore`.
 
 ## Methodology (CRISP-DM)
 
