@@ -295,7 +295,9 @@ and technologies used.
     st.divider()
 
     st.success(
-        "🏆 Best Model Selected: Random Forest Classifier"
+        "🏆 Best Model Selected: Random Forest"
+        
+        "Best Algorithm deployed: Random Forest Classifier"
     )
 
     st.divider()
