@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
