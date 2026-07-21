@@ -43,7 +43,6 @@ cm_df = pd.read_csv("confusion_matrix.csv", index_col=0)
 roc_df = pd.read_csv("roc_curve.csv")
 feature_importance = pd.read_csv("feature_importance.csv")
 
-metadata = joblib.load(METADATA_PATH)
 
 model = joblib.load(MODEL_PATH)
 imputer = joblib.load(IMPUTER_PATH)
@@ -296,7 +295,7 @@ and technologies used.
 
     st.success(
         "🏆 Best Model Selected: Random Forest"
-        
+
         "Best Algorithm deployed: Random Forest Classifier"
     )
 
@@ -582,7 +581,7 @@ elif page == "📈 Make Prediction":
 
 # Binary classification:
 # class 1 = Acute Food Insecurity
-       values = shap_values[1][0]
+       values = shap_values[0, :, 1]
 
        shap_df = pd.DataFrame({
            "Feature": feature_cols,
@@ -971,19 +970,17 @@ elif page == "📊 County Risk Bulletin":
                 "county",
                 "crisis_probability",
                 "risk_level"
-            ]
-        
-        ].style
-           .format(
-               {"crisis_probability":"{:.1%}"}
-           )
-           .applymap(
-               color_risk,
-               subset=["risk_level"]
-           ),
-
-           use_container_width=True
-    )
+                ]
+                ].style
+                .format(
+                    {"crisis_probability": "{:.1%}"}
+                    )
+                    .map(
+                        color_risk,
+                        subset=["risk_level"]
+                        ),
+                        use_container_width=True
+                        )
 
     st.divider()
 

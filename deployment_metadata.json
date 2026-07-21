@@ -1,6 +1,6 @@
 {
   "model_name": "Random Forest",
-  "threshold": 0.5199999999999999,
+  "threshold": 0.43999999999999995,
   "feature_cols": [
     "rfq_mean",
     "r3q_mean",
