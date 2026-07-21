@@ -21,8 +21,8 @@
   "recall_floor": 0.75,
   "selection_rule": "maximise precision subject to recall >= 0.75 on validation",
   "test_recall": 0.804,
-  "test_precision": 0.752,
-  "test_pr_auc": 0.818,
-  "test_roc_auc": 0.944,
+  "test_precision": 0.745,
+  "test_pr_auc": 0.815,
+  "test_roc_auc": 0.943,
   "trained_on": "2026-07-21"
 }
